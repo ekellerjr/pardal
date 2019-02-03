@@ -5,3 +5,6 @@ authors = ["Eugen Keller <ekellerjr@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+log = "0.4.6"
+env_logger = "0.6.0"
+dotenv = "0.13.0"
