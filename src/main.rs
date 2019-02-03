@@ -13,10 +13,9 @@ fn main() {
 
 fn init_log() {
 	env_logger::init();
-	info! {"logger initialised"};
+	debug! {"logger initialised"};
 }
 
 fn init_env() {
 	dotenv().ok();
 }
-
