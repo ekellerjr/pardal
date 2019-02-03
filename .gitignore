@@ -1,6 +1,8 @@
 /target
 .env*.local
+
 **/*.rs.bk
+**/*.db
 
 # eclipse project files
 .project
